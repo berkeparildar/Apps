@@ -3,7 +3,6 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ParticleBackgroundComponent } from './particle-background/particle-background.component';
 import { HeaderComponent } from './header/header.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { ProjectsComponent } from './projects/projects.component';
@@ -21,13 +20,11 @@ import { ContactComponent } from './contact/contact.component';
 const routes: Routes = [
   { path: '', component: ProjectsComponent },
   { path: 'certificates', component: CertificatesComponent },
-  { path: 'contact', component: ContactComponent },
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    ParticleBackgroundComponent,
     HeaderComponent,
     MainPageComponent,
     ProjectsComponent,
@@ -36,6 +33,7 @@ const routes: Routes = [
     CvViewComponent,
     CertificatesComponent,
     CertificateTileComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

@@ -7,9 +7,9 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   justify-items: center;
-}
+} 
 h1 {
-  color: #cba6f7;
+  color: var(--text);
   text-align: center;
   padding: 5px;
 }

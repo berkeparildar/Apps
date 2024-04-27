@@ -1,20 +1,20 @@
 .project-tile {
-  background-color: #1e1e2e;
-  border: 1px solid #cba6f7;
-  border-radius: 8px;
+  background-color: #ffffff;
+  border-radius: 18px;
   padding: 10px;
   max-width: 600px;
-  height: 60vh;
   display: flex;
   flex-direction: column;
   margin: 20px 10px;
   justify-content: space-between;
+  box-shadow: 2px 4px 12px #00000014;
 }
 
 .title {
-  color: #fab387;
-  font-size: 25px;
-  font-weight: bold;
+  color: var(--text);
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
   text-align: start;
   padding-left: 5px;
 }
@@ -32,13 +32,13 @@
   max-width: calc(100% / 3);
   max-height: 300px;
   margin: 0.5vw;
-  border-radius: 8px;
+  border-radius: 18px;
 }
 
 .project-image-landscape {
   max-width: calc(100%);
   max-height: 300px;
-  border-radius: 8px;
+  border-radius: 18px;
   margin: 0.5vw;
 
 }
@@ -61,8 +61,8 @@
 }
 
 .description {
-  color: #fff;
-  font-size: clamp(11px, 1vw, 15px);
+  color: var(--text);
+  font-size: clamp(11px, 1vw, 13px);
   padding: 5px;
   height: 85px;
   text-align: justify;
@@ -78,72 +78,55 @@
 
 .tags {
   padding: 5px;
-  /* margin-bottom: 20px; */
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
-  /* margin-top: 10px; */
 }
 
 .tag {
   text-align: center;
   min-width: 40px;
   color: #fff;
-  border-radius: 16px;
-  padding: 3px 5px;
+  border-radius: 18px;
+  padding: 6px 10px;
   font-size: 12px;
 }
 
-.tag-C_ {
-  background-color: rgba(203, 166, 247, 0.3);
-  border: 2px solid #cba6f7;
-}
-
-.tag-C_ {
-  background-color: rgba(203, 166, 247, 0.3);
-  border: 2px solid #cba6f7;
-}
 .tag-Firestore {
-  background-color: rgba(127, 132, 156, 0.3);
-  border: 2px solid #7f849c;
-}
-.tag-Photon {
-  background-color: rgba(245, 224, 220, 0.3);
-  border: 2px solid #f5e0dc;
-}
-.tag-NodeJS {
-  background-color: rgba(166, 227, 161 , 0.3);
-  border: 2px solid #a6e3a1;
-}
-.tag-Solidity {
-  background-color: rgba(17, 17, 27 , 0.3);
-  border: 2px solid #11111b;
-}
-.tag-Flutter {
-  background-color: rgba(116, 199, 236 , 0.3);
-  border: 2px solid #74c7ec ;
-}
-.tag-Swift {
-  background-color: rgba(250, 179, 135 , 0.3);
-  border: 2px solid #fab387 ;
-}
-.tag-C {
-  background-color: rgba(137, 180, 250, 0.3);
-  border: 2px solid #89b4fa ;
-}
-.tag-Java {
-  background-color: rgba(243, 139, 168, 0.3);
-  border: 2px solid #f38ba8;
-}
-.tag-ASP {
-  background-color: rgba(249, 226, 175, 0.3);
-  border: 2px solid #f9e2af	;
-}
-.tag-Multiplayer {
-  background-color: rgba(148, 226, 213, 0.3);
-  border: 2px solid #94e2d5;
+  background-color: var(--system-yellow);
 }
 
+.tag-SwiftUI {
+  background-color: var(--system-darkblue);
+}
+
+.tag-NodeJS {
+  background-color: var(--system-green);
+}
+
+.tag-Solidity {
+  background-color: #1c1c1e;
+}
+
+.tag-Flutter {
+  background-color: var(--system-mint);
+}
+
+.tag-Swift {
+  background-color: var(--system-orange);
+}
+
+.tag-ASP {
+  background-color: var(--system-indigo);
+}
+
+.tag-C_ {
+  background-color: var(--system-purple);
+}
+
+.tag-Java {
+  background-color: var(--system-darkcyan);
+}
 
 .tags-container {
   display: flex;
@@ -172,24 +155,31 @@
 .more-info {
   color: #1e1e2e;
   text-decoration: none;
-  font-weight: bold;  
   padding: 10px;
-  margin-left: 60px;
-  margin-right: 60px;
+  color: var(--system-blue);
+  margin-left: auto;
+  font-weight: 500;
+  margin-right: 0;
   font-size: clamp(12px, 1vw, 16px);
-  background-color: #74c7ec;
-  border-radius: 16px;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .shadow-icon:hover {
   filter: drop-shadow(0 0 0.5rem #a6e3a1);
   transition: filter 300ms linear;
-
 }
 
 .more-info:hover {
   cursor: pointer;
-  background-color: #a6e3a1;
-  transition: background-color 300ms linear;
+  text-decoration: underline;
+}
+
+.placeholder-icon a i {
+  font-size: 24px; /* Adjust the size as needed */
+}
+
+.placeholder-icon a i:hover {
+  color: var(--system-mint);;
+  transition: color 300ms linear;
 }

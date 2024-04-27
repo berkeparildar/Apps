@@ -1,33 +1,35 @@
 .custom-header {
-  background-color: #1e1e2e;
+  background-color: var(--background-dark);
   border-radius: 8px;
-  margin-top: 20px;
   margin-left: 15%;
   margin-right: 15%;
 }
 .custom-header .navbar-brand {
-  color: #cdd6f4;
+  color: var(--system-red);
   pointer-events: none;
 }
+
 .custom-header a {
-  margin: 0;
-  color: #cdd6f4;
+  font-size: clamp(11px, 1vw, 14px);
+  font-weight: 400;
+  color: var(--text);
 }
-.navbar-nav li {
-  padding-left: 40px;
+.navi {
+  display: flex; 
+  flex-direction: row;
 }
+
+.navi a {
+  padding: 0 20px;
+  text-decoration: none;
+}
+
 .custom-header a:hover {
-  color: #cba6f7;
+  transition: font-weight 300ms linear;
+  font-weight: 500;
 }
+
 .custom-header .navbar-nav .active-link {
   color: #f38ba8;
-  font-weight: bold;
-}
-
-#stat-q a:hover {
-  color:  #cba6f7!important;
-}
-
-#stat:visited {
-  color:  #cdd6f4!important;
+  font-weight: 400;
 }

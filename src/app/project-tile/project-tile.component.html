@@ -12,8 +12,8 @@
       </span>
     </div>
     <div class="placeholder-icons">
-      <span *ngIf="hasStore" class="placeholder-icon"><a [href]="storeUrl" target="_blank"><img class="shadow-icon" src="assets/gp_square.png" alt="Github Repository"></a></span>
-      <span class="placeholder-icon"><a [href]="repoLink" target="_blank"><img class="shadow-icon" src="assets/github_icon_square.png" alt="Github Repository"></a></span>
+      <span *ngIf="hasVideo" class="placeholder-icon"><a [href]="videoId" target="_blank"><i class="fab fa-youtube"></i></a></span>
+      <span class="placeholder-icon"><a [href]="repoLink" target="_blank"><i class="fab fa-github"></i></a></span>
     </div>
   </div>
   <div>
@@ -23,5 +23,5 @@
   </div>
   </div>
   
-  <p (click)="openProjectView()" class="more-info" href="">More Information</p>
+  <p (click)="openProjectView()" class="more-info" href="">More information <i class="fa-solid fa-chevron-right"></i></p>
 </div>

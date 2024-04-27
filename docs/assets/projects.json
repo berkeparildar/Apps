@@ -16,16 +16,17 @@
     "hasVideo": true,
     "hasStore": false,
     "storeUrl": "",
-    "tagCount": 2,
+    "tagCount": 3,
     "tags": [
       "Swift",
-      "ASP.NET Core"
+      "SwiftUI",
+      "ASP .NET Core"
     ],
     "isPortait": true,
     "thumbnailOnePath": "assets/images/wonders/1.png",
     "thumbnailTwoPath": "assets/images/wonders/2.png",
     "thumbnailThreePath": "assets/images/wonders/3.png",
-    "thumbnailString": "Take control of a U shaped object. The objective is to collect all small obstacles in a platform and successfully carry them to the end of the level."
+    "thumbnailString": "Wonders is a comprehensive guide for users to explore tourist attractions and must-visit places in various countries."
   },
   {
     "genre": "Arcade Game",
@@ -44,15 +45,16 @@
     "hasVideo": true,
     "hasStore": false,
     "storeUrl": "",
-    "tagCount": 1,
+    "tagCount": 2,
     "tags": [
-      "Swift"
+      "Swift",
+      "SwiftUI"
     ],
     "isPortait": true,
     "thumbnailOnePath": "assets/images/currencyconverter/1.png",
     "thumbnailTwoPath": "assets/images/currencyconverter/2.png",
     "thumbnailThreePath": "assets/images/currencyconverter/3.png",
-    "thumbnailString": "Play as an adventurous chicken attempting to cross busy roads and rivers. The objective is to navigate through the traffic and obstacles and reach to the other side."
+    "thumbnailString": "Currency Converter is an iOS app to convert a specified amount of money from one currency to another."
   },
   {
     "genre": "",
@@ -82,7 +84,7 @@
     "thumbnailOnePath": "assets/images/dsis/home_screen.png",
     "thumbnailTwoPath": "assets/images/dsis/login_screen.png",
     "thumbnailThreePath": "assets/images/dsis/grades.png",
-    "thumbnailString": "Fall Parkour is a multiplayer desktop game inspired by the popular game Fall Guys. Two players compete in a series of challenging race maps, with the goal of reaching the finish line before their opponent."
+    "thumbnailString": "The Decentralized Student Information System (DSIS) is a blockchain-based system for student information management."
   },
   {
     "genre": "",
@@ -107,7 +109,7 @@
     "thumbnailOnePath": "assets/images/cookbook/4.png",
     "thumbnailTwoPath": "assets/images/cookbook/5.png",
     "thumbnailThreePath": "assets/images/cookbook/6.png",
-    "thumbnailString": "Freeway Drive is an endless driving game where players take control of a moving car on a busy freeway. The car gradually gains speed as the game progresses, challenging players' reflexes and decision-making."
+    "thumbnailString": "Cookbook is a user-friendly mobile application developed using the Flutter framework that serves as your digital recipe organizer."
   },
   
   {
@@ -138,6 +140,6 @@
     "thumbnailOnePath": "assets/images/helpchain/1.png",
     "thumbnailTwoPath": "assets/images/helpchain/2.png",
     "thumbnailThreePath": "assets/images/helpchain/4.png",
-    "thumbnailString": "Putt Time is a multiplayer desktop golf game designed for up to four players. Players can create or join rooms and engage in golf matches across three maps: Classicton, Jumpington, and Spinnington."
+    "thumbnailString": "The HelpChain system provides a new blockchain based solution to disaster management."
   }
 ]
