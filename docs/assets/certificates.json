@@ -1,6 +1,16 @@
 [
-{
-  "name": "Projeye Başarıyla Adım Atma",
+  {
+    "name": "Proje Planlaması",
+    "imagePath": "assets/certificates/pphs.jpeg",
+    "url": "https://coursera.org/verify/5R897G3ZDKJC"
+  },
+  {
+    "name": "Proje Yürütme",
+    "imagePath": "assets/certificates/ppphg.jpeg",
+    "url": "https://coursera.org/verify/G55EBC69ZCBF"
+  },
+  {
+  "name": "Projeyi Başlatma",
   "imagePath": "assets/certificates/pbpbaa.png",
   "url": "https://coursera.org/verify/E9GNJ675SH5Q"
 },

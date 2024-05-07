@@ -8,11 +8,15 @@
   --system-purple: #af52de;
   --system-green: #34c759;
   --system-orange: #ff9500;
+  --system-teal: #30A7C6;
   --system-blue: #007aff;
   --system-indigo: #5856d6;
   --system-yellow: #ffcc00;
   --system-darkblue: #0040dd;
-  --system-darkcyan: #0271a4;
+  --system-cyan: #32ADE6;
+  --system-pink: #FF2D55;
+  --system-purple: #AF52DE;
+  --system-brown: #A2845E
 }
 
 * {

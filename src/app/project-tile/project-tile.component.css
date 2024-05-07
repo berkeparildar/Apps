@@ -97,8 +97,10 @@
 }
 
 .tag-SwiftUI {
-  background-color: var(--system-darkblue);
+  background-color: var(--system-blue);
 }
+
+
 
 .tag-NodeJS {
   background-color: var(--system-green);
@@ -112,12 +114,28 @@
   background-color: var(--system-mint);
 }
 
+.tag-MVVM {
+  background-color: var(--system-pink);
+}
+
+.tag-Flutter {
+  background-color: var(--system-mint);
+}
+
+.tag-VIPER {
+  background-color: var(--system-indigo);
+}
+
+.tag-UIKit {
+  background-color: var(--system-red);
+}
+
 .tag-Swift {
   background-color: var(--system-orange);
 }
 
 .tag-ASP {
-  background-color: var(--system-indigo);
+  background-color: var(--system-purple);
 }
 
 .tag-C_ {
@@ -125,7 +143,7 @@
 }
 
 .tag-Java {
-  background-color: var(--system-darkcyan);
+  background-color: var(--system-cyan);
 }
 
 .tags-container {
