@@ -1,5 +1,15 @@
 [
   {
+    "name": "Çevik Proje Yönetimi",
+    "imagePath": "assets/certificates/cpy.png",
+    "url": "https://coursera.org/verify/ZMGFG3ZUAUBC"
+  },
+  {
+    "name": "Getir iOS Swift Bootcamp",
+    "imagePath": "assets/certificates/gisb.png",
+    "url": "https://cohorts.patika.dev/certificates/265e78dc"
+  },
+  {
     "name": "Proje Planlaması",
     "imagePath": "assets/certificates/pphs.jpeg",
     "url": "https://coursera.org/verify/5R897G3ZDKJC"

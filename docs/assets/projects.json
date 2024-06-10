@@ -1,18 +1,18 @@
 [
   {
     "genre": "iOS App",
-    "title": "Getir Lite",
-    "repoLink": "https://github.com/berkeparildar/Getir-Final-Case/",
+    "title": "Holler",
+    "repoLink": "https://github.com/berkeparildar/Holler",
     "imageUrl": "assets/images/wonders/logo.png",
-    "description": "Getir Lite is a streamlined solution for ordering products online. Getir Lite provides a simplified experience compared to its full version.",
+    "description": "Holler is an iOS social media application inspired by Twitter, where users can share their thoughts, updates, and moments with others. The app provides a platform for users to post text and photos, interact with other users through likes and replies, and follow their favorite people to see their posts in a personalized feed.",
     "titleOne": "Features",
-    "partOne": "Product Catalog: Access a comprehensive list of available products displayed both horizontally and vertically on the home screen._Add to Cart: Add desired products to your cart by tapping the '+' button located conveniently on each product._Cart Management: Control the quantity of products in your cart using a floating stepper that appears alongside the product. The cart button on the navigation bar displays the total price of items in the cart._Product Details: Tap on any product to view detailed information, including the option to adjust quantity or add more to your cart._Cart Page: Navigate to the cart page to view all items currently in your cart. Remove all items at once using the trash button, triggering a confirmation modal._Suggested Products: Discover suggested products listed horizontally below the cart items. Quickly add them to your cart by tapping the '+' button._Complete Order: Easily complete your order by tapping the 'complete order' button at the bottom of the cart screen. Confirm your selection to finalize the purchase._Persistent Cart with Core Data: Getir Lite uses Core Data to store products in your cart, ensuring that your selections are saved between sessions.",
+    "partOne": "Tabs and Navigation: The app features three tabs—Search, Feed, and Profile—allowing users to search for other users by username, view posts from followed users, and view or edit personal profile details._Posting and Interaction: Users can create posts with text, photos, or both, and interact with posts by liking or replying._User Profiles: Users can view other users' profiles, follow or unfollow them, and see their posts, profile image, banner image, and follower information._Profile Customization: Users can edit and update their profile images and banner images, with images stored in Firebase Cloud Storage._Backend Integration: The app uses Firebase Firestore for managing user data and posts, Firebase Authentication for account creation and login, and Firebase Cloud Storage for storing images._Technical Stack: Developed using UIKit for the user interface, and following the MVVM (Model-View-ViewModel) architectural pattern to ensure a clean and maintainable codebase.",
     "titleTwo": "How to Use",
-    "partTwo": "Browse Products: Explore the available products displayed on the home screen._Add to Cart: Tap the '+' button on any product to add it to your cart. Use the floating stepper to adjust quantities as needed._View Cart: Navigate to the cart screen by tapping the cart button on the navigation bar. Remove all items at once by tapping the trash button._Manage Cart Items: Adjust quantities or remove products directly from the cart screen. Explore suggested products below and add them to your cart with a tap._Complete Your Order: Once satisfied with your selection, tap 'complete order' at the bottom of the cart screen. Confirm your order to finalize the purchase.",
-    "videoId": "https://youtu.be/YERyl8qyfqA",
-    "imageOnePath": "assets/images/getirlite/1.png",
-    "imageTwoPath": "assets/images/getirlite/2.png",
-    "imageThreePath": "assets/images/getirlite/3.png",
+    "partTwo": "Sign Up and Log In: Open Holler, sign up with email, password, name, and username, and log in using the registered email and password._Navigate the App: Use the Search Tab to find and follow other users by typing their username, check the Feed Tab to see posts from followed users, and access the Profile Tab to view and edit personal profile information._Create and Interact with Posts: Tap the create post button on the Feed page to add text and/or a photo, tap on a post to view it in detail and see replies, and like or reply to posts to engage with other users._Manage Follows: Search for a user in the Search Tab, tap on their profile, click the follow button to see their posts in your feed, and tap the unfollow button to remove their posts from your feed._Edit Profile: Go to the Profile Tab, tap the edit button, update your profile image or banner image, and save changes to update your profile.",
+    "videoId": "https://youtu.be/qzHFDbrYlcA",
+    "imageOnePath": "assets/images/holler/1.png",
+    "imageTwoPath": "assets/images/holler/2.png",
+    "imageThreePath": "assets/images/holler/3.png",
     "hasVideo": true,
     "hasStore": false,
     "storeUrl": "",
@@ -20,13 +20,44 @@
     "tags": [
       "Swift",
       "UIKit",
-      "VIPER"
+      "MVVM",
+      "Firestore"
     ],
     "isPortait": true,
-    "thumbnailOnePath": "assets/images/getirlite/1.png",
-    "thumbnailTwoPath": "assets/images/getirlite/2.png",
-    "thumbnailThreePath": "assets/images/getirlite/3.png",
-    "thumbnailString": "Getir Lite is a streamlined solution for ordering products online."
+    "thumbnailOnePath": "assets/images/holler/1.png",
+    "thumbnailTwoPath": "assets/images/holler/2.png",
+    "thumbnailThreePath": "assets/images/holler/3.png",
+    "thumbnailString": "Holler is an social media application inspired by Twitter, where users can share their thoughts, updates, and moments with others."
+  },
+  {
+    "genre": "iOS App",
+    "title": "Market",
+    "repoLink": "https://github.com/berkeparildar/Market",
+    "imageUrl": "assets/images/wonders/logo.png",
+    "description": "Market is an iOS application designed to transform your phone into a convenient marketplace. The app allows users to browse and purchase products easily through a user-friendly interface featuring categorized product listings, a dynamic cart system, and personalized product suggestions.",
+    "titleOne": "Features",
+    "partOne": "User Interface: The app opens to a Products Page with a horizontally scrollable category bar at the top and a vertically scrollable product list below, allowing users to easily navigate between different product categories._Adding to Cart: Users can add products to their cart by tapping the '+' button on the product, which then opens a stepper to adjust the quantity. The cart button in the upper right corner shows the total amount in the cart._Detailed Product View: Tapping on a product opens a detailed view where users can add or remove the product from their cart and adjust its quantity._Cart Management: Users can access the cart by tapping the cart button in the navigation bar. The cart page displays all added products with steppers to control their quantity, an empty cart button to clear all items, and a horizontally scrollable list of suggested products based on the categories of items in the cart._Suggested Products: Suggested products appear below the cart items and can be added to the cart by tapping the '+' sign._Order Completion: A button below the suggested products allows users to complete their order. Upon completion, users receive a success notification with the total amount and are automatically navigated back to the Products Page._Data Persistence: Core Data integration ensures that products added to the cart are saved locally, allowing users to retain their cart items even if they quit the app.",
+    "titleTwo": "How to Use",
+    "partTwo": "Navigate Categories: Open the app to the Products Page and use the horizontally scrollable category bar to browse through different product categories._Add Products to Cart: Tap the '+' button on any product to add it to the cart. Use the stepper to adjust the quantity. The cart button will display the current total amount in the cart._View Product Details: Tap on any product to see more details. From the detailed view, adjust the product quantity or add/remove it from the cart._Manage Cart: Tap the cart button in the navigation bar to view all items in your cart. Adjust quantities using the steppers, or use the empty cart button to remove all items._Add Suggested Products: Scroll through the suggested products list below the cart items and tap the '+' sign to add any suggested item to the cart._Complete Order: Tap the 'Complete Order' button to finalize your purchase. A success notification with the total amount will appear, and you will be navigated back to the Products Page.",
+    "videoId": "https://youtu.be/15HQuH9yYJ4",
+    "imageOnePath": "assets/images/market/1.png",
+    "imageTwoPath": "assets/images/market/2.png",
+    "imageThreePath": "assets/images/market/3.png",
+    "hasVideo": true,
+    "hasStore": false,
+    "storeUrl": "",
+    "tagCount": 3,
+    "tags": [
+      "Swift",
+      "UIKit",
+      "VIPER",
+      "ASP .NET Core"
+    ],
+    "isPortait": true,
+    "thumbnailOnePath": "assets/images/market/1.png",
+    "thumbnailTwoPath": "assets/images/market/2.png",
+    "thumbnailThreePath": "assets/images/market/3.png",
+    "thumbnailString": "Market is an iOS application designed to transform your phone into a convenient marketplace."
   },
   {
     "genre": "iOS App",
@@ -95,7 +126,7 @@
     "titleOne": "Features",
     "partOne": "User-Friendly Interface: Users can easily tap on the currency icons to select their current currency and the target currency for conversion._Wide Currency Support: The app provides access to 16 different currencies, offering a broad range of options for users._Real-time Target Currency Update: The target currency dynamically updates in real-time with each input, allowing users to see instant conversions._Exchange Rates API Integration: Exchange rates for all available currencies are set with the base currency being USD._The entered amount is converted to the target currency by considering the latest exchange rates, ensuring accuracy in calculations.",
     "titleTwo": "How to Use",
-    "partTwo":"Launch the App: Open Currency Converter on your iOS device._Currency Selection: Tap the first currency icon to access available currencies. Select your current currency from the list. Use the second currency icon to choose the target currency._Tap the first empty text box to input the amount you wish to convert._The converted amount is displayed in the second text box, providing the equivalent value in the selected target currency.",
+    "partTwo": "Launch the App: Open Currency Converter on your iOS device._Currency Selection: Tap the first currency icon to access available currencies. Select your current currency from the list. Use the second currency icon to choose the target currency._Tap the first empty text box to input the amount you wish to convert._The converted amount is displayed in the second text box, providing the equivalent value in the selected target currency.",
     "videoId": "https://youtu.be/OHwwctYCMlY",
     "imageOnePath": "assets/images/currencyconverter/1.png",
     "imageTwoPath": "assets/images/currencyconverter/2.png",
@@ -162,14 +193,16 @@
     "hasStore": false,
     "storeUrl": "https://play.google.com/store/apps/details?id=com.bprldr.freewaydrive",
     "tagCount": 1,
-    "tags": ["Flutter", "Firestore"],
+    "tags": [
+      "Flutter",
+      "Firestore"
+    ],
     "isPortait": true,
     "thumbnailOnePath": "assets/images/cookbook/4.png",
     "thumbnailTwoPath": "assets/images/cookbook/5.png",
     "thumbnailThreePath": "assets/images/cookbook/6.png",
     "thumbnailString": "Cookbook is a user-friendly mobile application developed using the Flutter framework that serves as your digital recipe organizer."
   },
-  
   {
     "genre": "",
     "title": "HelpChain",
