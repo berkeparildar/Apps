@@ -10,8 +10,8 @@
 } 
 h1 {
   color: var(--text);
-  text-align: center;
   padding: 5px;
+  font-weight: bold;
 }
 
 body::-webkit-scrollbar {

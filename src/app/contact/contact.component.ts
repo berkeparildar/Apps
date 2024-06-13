@@ -1,4 +1,3 @@
-// contact.component.ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,11 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
-export class ContactComponent {
-  formData: any = {};
-
-  submitForm() {
-    // Handle form submission logic here
-    console.log('Form submitted:', this.formData);
-  }
-}
+export class ContactComponent {}

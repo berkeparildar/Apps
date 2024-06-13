@@ -68,7 +68,6 @@
 
 .grid-row .text-part,
 .grid-row .image-part {
-  font-size: clamp(9px, 1vw, 14px);
   flex: 1;
   display: flex;
   padding: 1%;

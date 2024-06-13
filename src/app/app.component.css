@@ -3,23 +3,9 @@
 }
 
 body {
-    background-color: var(--background-dark);
+    background-color: var(--background-light);
 }
 
 html {
-    background-color: var(--background-dark);
-}
-
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: red; 
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #b30000; 
+    background-color: var(--background-light);
 }

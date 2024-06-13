@@ -20,23 +20,23 @@
 }
 
 * {
-  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
 
 body {
-  background-color: var(--background-dark);
+  background-color: var(--background-light);
 }
 
 html {
-  background-color: var(--background-dark);
+  background-color: var(--background-light);
 }
 
 body {
-  background-color: var(--background-dark);
+  background-color: var(--background-light);
   margin: 0;
   padding: 0;
-  height: 100%;  /* Ensures that the height of the body is full viewport height */
+  height: 100%;
   width: 100%
 }
 
