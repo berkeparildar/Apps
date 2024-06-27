@@ -5,29 +5,13 @@
     <div class="row">
       <div class="col-md-6 col-lg-6 d-flex justify-content-center" *ngFor="let project of projects">
         <app-project-tile
-          [genre]="project.genre"
-          [title]="project.title"
-          [repoLink]="project.repoLink"
-          [imageUrl]="project.imageUrl"
-          [description]="project.description"
-          [titleOne]="project.titleOne"
-          [partOne]="project.partOne"
-          [titleTwo]="project.titleTwo"
-          [partTwo]="project.partTwo"
-          [videoId]="project.videoId"
-          [imageOnePath]="project.imageOnePath"
-          [imageTwoPath]="project.imageTwoPath"
-          [imageThreePath]="project.imageThreePath"
-          [hasVideo] = project.hasVideo
-          [hasStore] = project.hasStore
-          [storeUrl] = "project.storeUrl"
-          [tagCount] = project.tagCount
+          [projectName]="project.projectName"
+          [repositoryURL]="project.repositoryURL"
+          [projectDescription]="project.projectDescription"
+          [projectFeatures]="project.projectFeatures"
+          [projectUsage]="project.projectUsage"
+          [videoURL]="project.videoURL"
           [tags] = "project.tags"
-          [isPortait]="project.isPortait"
-          [thumbnailOnePath]="project.thumbnailOnePath"
-          [thumbnailTwoPath]="project.thumbnailTwoPath"
-          [thumbnailThreePath]="project.thumbnailThreePath"
-          [thumbnailString]="project.thumbnailString"
         ></app-project-tile>
       </div>
     </div>

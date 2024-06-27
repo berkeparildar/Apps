@@ -1,29 +1,13 @@
 import {Component, OnInit} from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 interface Project {
-  genre: string;
-  title: string;
-  repoLink: string;
-  imageUrl: string;
-  description: string;
-  titleOne: string;
-  partOne: string;
-  titleTwo: string;
-  partTwo: string;
-  videoId: string;
-  imageOnePath: string;
-  imageTwoPath: string;
-  imageThreePath: string;
-  hasVideo: boolean;
-  hasStore: boolean;
-  storeUrl: string;
-  tagCount: number;
+  projectName: string;
+  repositoryURL: string;
+  projectDescription: string;
+  projectFeatures: string[];
+  projectUsage: string[];
+  videoURL: string;
   tags: string[];
-  isPortait: boolean;
-  thumbnailOnePath: string;
-  thumbnailTwoPath: string;
-  thumbnailThreePath: string;
-  thumbnailString: string
 }
 @Component({
   selector: 'app-projects',

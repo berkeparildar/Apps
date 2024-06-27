@@ -75,20 +75,8 @@
   background-color: var(--system-green);
 }
 
-.tag-Solidity {
-  background-color: #1c1c1e;
-}
-
-.tag-Flutter {
-  background-color: var(--system-mint);
-}
-
 .tag-MVVM {
   background-color: var(--system-pink);
-}
-
-.tag-Flutter {
-  background-color: var(--system-mint);
 }
 
 .tag-VIPER {
@@ -105,14 +93,6 @@
 
 .tag-ASP {
   background-color: var(--system-purple);
-}
-
-.tag-C_ {
-  background-color: var(--system-purple);
-}
-
-.tag-Java {
-  background-color: var(--system-cyan);
 }
 
 .tags-container {
